@@ -4,15 +4,11 @@ def read_input(file_path: str) -> list[str]:
 
 
 def solve1(input_lines: list[str]) -> str:
-    input = []
-    for line in input_lines:
-        input.append(line)
+    input = [line.strip() for line in input_lines]
 
 
 def solve2(input_lines: list[str]) -> str:
-    input = []
-    for line in input_lines:
-        input.append(line)
+    input = [line.strip() for line in input_lines]
 
 
 def main():
